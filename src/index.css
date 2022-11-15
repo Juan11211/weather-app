@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* { 
+  margin: 0px;
+  padding: 0px;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  
+}
+
+.search--bar > input {
+  border-radius: 25px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: 1px solid rgba(218, 223, 225, 1);
+  height: 25px;
+  width: 200px;
+  text-align: center;
+  
+}
+
+.home {
+  background: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?auto=format&h=200') no-repeat center;
+  background-size: cover;
+  height: 820px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container--card {
+ width: 300px;
+ height: auto;
+ display: block;
+ align-items: center;
+ padding-left: 20px;
+}
+
+.location {
+  font-size: 25px;
+}
+
+.temp{
+  font-size: 50px;
+}
+
+.container--card--2 { 
+  padding-top: 25px;
+  display: flex;
+}
+
+.container--card--2 > .p { 
+  display: block;
+  align-items: center;
+  justify-content: center;
+
 }
